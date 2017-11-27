@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NewXMLSchema"
+	xmlns:tns="http://www.example.org/NewXMLSchema" elementFormDefault="qualified">
+	<element name="companyinfo">
+		<complexType>
+			<sequence>
+				<element name="applicantname" type="string" />
+				<element name="applicantage" type="int" />
+				<element name="companies">
+					<complexType>
+						<sequence>
+							<element name="company" minOccurs="0" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="headquator" type="string" />
+										<element name="type" type="string" />
+										<element name="numberofemployees" type="int" />
+									</sequence>
+									<attribute name="companyname" />
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

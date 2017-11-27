@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ns1:CV
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://unknown.abc/HW1/CV'
+    xsi:schemaLocation='http://unknown.abc/HW1/CV ../schema/CV.xsd'>
+    <fullname>
+        <firstname>Harry</firstname>
+        <lastname>Potter</lastname>
+    </fullname>
+    <ID>8007311234</ID>
+    <selfdescription>I'm special</selfdescription>
+    <wantedplace>Hogwarts</wantedplace>
+    <wantedtype>parttime</wantedtype>
+
+</ns1:CV>

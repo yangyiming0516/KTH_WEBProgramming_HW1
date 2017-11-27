@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><ns2:profile xmlns:ns2="http://unknown.abc/HW1/Profile">
+    <fullname>
+        <firstname>Harry</firstname>
+        <lastname>Potter</lastname>
+    </fullname>
+    <ID>8007311234</ID>
+    <selfdescription>I'm special</selfdescription>
+    <wantedplace>Hogwarts</wantedplace>
+    <wantedtype>parttime</wantedtype>
+    <education>
+        <university>Cambridge University</university>
+        <degree>Master of Physics</degree>
+        <year>2000</year>
+        <totalcredit>20.5</totalcredit>
+        <averageGPA>96.85365853658537</averageGPA>
+    </education>
+    <working>
+        <record>
+            <company>home</company>
+            <from>
+                <day>20</day>
+                <month>12</month>
+                <year>1990</year>
+            </from>
+            <to>
+                <day>5</day>
+                <month>6</month>
+                <year>1995</year>
+            </to>
+            <headquator>Anywhere</headquator>
+            <companytype>nothing</companytype>
+            <employees>5</employees>
+        </record>
+        <record>
+            <company>Gryffindor</company>
+            <from>
+                <day>30</day>
+                <month>11</month>
+                <year>1996</year>
+            </from>
+            <to>
+                <day>1</day>
+                <month>1</month>
+                <year>2001</year>
+            </to>
+            <headquator>Hogwarts</headquator>
+            <companytype>Magic</companytype>
+            <employees>10000</employees>
+        </record>
+    </working>
+</ns2:profile>

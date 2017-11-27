@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<personal_profile>
+  <CV_other_material>
+    <fullname>
+      <firstname>Harry</firstname>
+      <lastname>Potter</lastname>
+    </fullname>
+    <ID>8007311234</ID>
+    <selfdescription>I'm special</selfdescription>
+    <wantedplace>Hogwarts</wantedplace>
+    <wantedtype>parttime</wantedtype>
+  </CV_other_material>
+  <degree_transcript>
+    <university/>
+    <degree/>
+    <courses>
+      <course CourseName="C++ Programming">
+        <score>93</score>
+        <value>4</value>
+      </course>
+    </courses>
+    <university/>
+    <degree/>
+    <courses>
+      <course CourseName="Machine leaning">
+        <score>87</score>
+        <value>5</value>
+      </course>
+    </courses>
+    <university/>
+    <degree/>
+    <courses>
+      <course CourseName="Data Structure">
+        <score>93</score>
+        <value>4</value>
+      </course>
+    </courses>
+    <university/>
+    <degree/>
+    <courses>
+      <course CourseName="Operatin System">
+        <score>81</score>
+        <value>3</value>
+      </course>
+    </courses>
+  </degree_transcript>
+  <employment_record>
+    <record>
+      <experience>
+        <companyname>Apple Inc</companyname>
+        <from/>
+        <to>
+          <day>20</day>
+          <month>12</month>
+          <year>1990</year>
+        </to>
+      </experience>
+    </record>
+    <record>
+      <experience>
+        <companyname>Gryffindor</companyname>
+        <from/>
+        <to>
+          <day>5</day>
+          <month>6</month>
+          <year>1995</year>
+        </to>
+      </experience>
+    </record>
+  </employment_record>
+  <company_info>
+    <companies>
+      <company CompanyName="Apple Inc.">
+        <headquater>Cupertino</headquater>
+        <type>IT Technology</type>
+        <numberofemployees>115000</numberofemployees>
+      </company>
+    </companies>
+    <companies>
+      <company CompanyName="Gryffindor">
+        <headquater>Hogwarts</headquater>
+        <type>Mage</type>
+        <numberofemployees>1200</numberofemployees>
+      </company>
+    </companies>
+  </company_info>
+</personal_profile>

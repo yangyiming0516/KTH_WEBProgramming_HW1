@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:companyinfo xmlns:tns="http://unknown.abc/HW1/companyinfo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://unknown.abc/HW1/companyinfo ../schema/company_info.xsd">
+	<tns:companies>
+		<tns:company companyname="Google Inc.">
+			<tns:headquator>Mountain View</tns:headquator>
+			<tns:type>IT Technology</tns:type>
+			<tns:numberofemployees>57150</tns:numberofemployees>
+		</tns:company>
+		<tns:company companyname="Apple Inc.">
+			<tns:headquator>Cupertino</tns:headquator>
+			<tns:type>IT Technology</tns:type>
+			<tns:numberofemployees>115000</tns:numberofemployees>
+		</tns:company>
+		<tns:company companyname="JP Morgan Chase">
+			<tns:headquator>New York City</tns:headquator>
+			<tns:type>Finance and Banking</tns:type>
+			<tns:numberofemployees>246300</tns:numberofemployees>
+		</tns:company>
+		<tns:company companyname="Royal Dutch Shell">
+			<tns:headquator>Hague</tns:headquator>
+			<tns:type>Energy and Petroleum</tns:type>
+			<tns:numberofemployees>92000</tns:numberofemployees>
+		</tns:company>
+		<tns:company companyname="Gryffindor">
+			<tns:headquator>Hogwarts</tns:headquator>
+			<tns:type>Magic</tns:type>
+			<tns:numberofemployees>10000</tns:numberofemployees>
+		</tns:company>
+		<tns:company companyname="home">
+			<tns:headquator>Anywhere</tns:headquator>
+			<tns:type>nothing</tns:type>
+			<tns:numberofemployees>5</tns:numberofemployees>
+		</tns:company>
+	</tns:companies>
+</tns:companyinfo>

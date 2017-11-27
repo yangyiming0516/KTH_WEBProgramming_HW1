@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ns1:employment
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://unknown.abc/HW1/employment'
+    xsi:schemaLocation='http://unknown.abc/HW1/employment ../schema/employment.xsd'>
+    <record number="1">
+        <fullname>
+            <firstname>Harry</firstname>
+            <lastname>Potter</lastname>
+        </fullname>
+        <experience>
+            <companyname>home</companyname>
+            <from>
+                <day>20</day>
+                <month>12</month>
+                <year>1990</year>
+            </from>
+            <to>
+                <day>5</day>
+                <month>6</month>
+                <year>1995</year>
+            </to>
+        </experience>
+        <experience>
+            <companyname>Gryffindor</companyname>
+            <from>
+                <day>30</day>
+                <month>11</month>
+                <year>1996</year>
+            </from>
+            <to>
+                <day>1</day>
+                <month>1</month>
+                <year>2001</year>
+            </to>
+        </experience>
+    </record>
+    <record number="2">
+        <fullname>
+            <firstname>Yiming</firstname>
+            <lastname>Yang</lastname>
+        </fullname>
+        <experience>
+            <companyname>home</companyname>
+            <from>
+                <day>16</day>
+                <month>5</month>
+                <year>1994</year>
+            </from>
+            <to>
+                <day>30</day>
+                <month>7</month>
+                <year>2016</year>
+            </to>
+        </experience>
+    </record>
+
+</ns1:employment>

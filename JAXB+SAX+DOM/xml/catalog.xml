@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/D:/xml/xml/../../schema/CV.xsd" uri="xml-resources/jaxb/CV/CV.xsd"/>
+    <system systemId="file:/D:/xml/xml/../../schema/employment.xsd" uri="xml-resources/jaxb/Employment/employment.xsd"/>
+    <system systemId="file:/D:/xml/xml/../../schema/company_info.xsd" uri="xml-resources/jaxb/Company_info/company_info.xsd"/>
+    <system systemId="file:/D:/xml/xml/../../schema/transcript.xsd" uri="xml-resources/jaxb/Transcript/transcript.xsd"/>
+    <system systemId="file:/D:/xml/xml/Profile.xsd" uri="xml-resources/jaxb/Profile/Profile.xsd"/>
+</catalog>

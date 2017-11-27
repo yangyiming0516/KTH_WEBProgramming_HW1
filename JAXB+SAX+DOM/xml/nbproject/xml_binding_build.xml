@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            *** GENERATED FROM xml_binding_cfg.xml - DO NOT EDIT  ***
+            *** Configure thru JAXB Wizard.                       ***
+        -->
+<project name="xml_jaxb" default="default" basedir=".">
+   <target name="xjc-typedef-target" depends="-init-project">
+      <typedef xmlns:s="http://xml.netbeans.org/schema/JAXBWizConfig"
+               classname="com.sun.tools.xjc.XJCTask"
+               name="xjc">
+         <classpath path="${jaxbwiz.xjcdef.classpath}"/>
+      </typedef>
+   </target>
+   <target name="jaxb-clean-code-generation" depends="clean,jaxb-code-generation"/>
+   <target name="jaxb-code-generation"
+           depends="xjc-typedef-target,-do-init,-init-macrodef-javac">
+      <mkdir xmlns:s="http://xml.netbeans.org/schema/JAXBWizConfig"
+             dir="${build.generated.sources.dir}/jaxb"/>
+      <mkdir xmlns:s="http://xml.netbeans.org/schema/JAXBWizConfig"
+             dir="build/generated/jaxbCache"/>
+      <mkdir dir="build/generated/jaxbCache/Employment"/>
+      <xjc package="jaxbCache.Employment.xml"
+           destdir="build/generated/jaxbCache/Employment"
+           catalog="catalog.xml">
+         <classpath>
+            <pathelement location="${src.dir}"/>
+            <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+         </classpath>
+         <arg value="-xmlschema"/>
+         <schema file="xml-resources/jaxb/Employment/employment.xsd"/>
+         <depends file="xml-resources/jaxb/Employment/employment.xsd"/>
+         <produces dir="build/generated/jaxbCache/Employment"/>
+      </xjc>
+      <copy todir="${build.generated.sources.dir}/jaxb">
+         <fileset dir="build/generated/jaxbCache/Employment"/>
+      </copy>
+      <mkdir dir="build/generated/jaxbCache/Company_info"/>
+      <xjc package="jaxbCache.Company_info.xml"
+           destdir="build/generated/jaxbCache/Company_info"
+           catalog="catalog.xml">
+         <classpath>
+            <pathelement location="${src.dir}"/>
+            <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+         </classpath>
+         <arg value="-xmlschema"/>
+         <schema file="xml-resources/jaxb/Company_info/company_info.xsd"/>
+         <depends file="xml-resources/jaxb/Company_info/company_info.xsd"/>
+         <produces dir="build/generated/jaxbCache/Company_info"/>
+      </xjc>
+      <copy todir="${build.generated.sources.dir}/jaxb">
+         <fileset dir="build/generated/jaxbCache/Company_info"/>
+      </copy>
+      <mkdir dir="build/generated/jaxbCache/Transcript"/>
+      <xjc package="jaxbCache.Transcript.xml"
+           destdir="build/generated/jaxbCache/Transcript"
+           catalog="catalog.xml">
+         <classpath>
+            <pathelement location="${src.dir}"/>
+            <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+         </classpath>
+         <arg value="-xmlschema"/>
+         <schema file="xml-resources/jaxb/Transcript/transcript.xsd"/>
+         <depends file="xml-resources/jaxb/Transcript/transcript.xsd"/>
+         <produces dir="build/generated/jaxbCache/Transcript"/>
+      </xjc>
+      <copy todir="${build.generated.sources.dir}/jaxb">
+         <fileset dir="build/generated/jaxbCache/Transcript"/>
+      </copy>
+      <mkdir dir="build/generated/jaxbCache/CV"/>
+      <xjc package="jaxbCache.CV.xml"
+           destdir="build/generated/jaxbCache/CV"
+           catalog="catalog.xml">
+         <classpath>
+            <pathelement location="${src.dir}"/>
+            <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+         </classpath>
+         <arg value="-xmlschema"/>
+         <schema file="xml-resources/jaxb/CV/CV.xsd"/>
+         <depends file="xml-resources/jaxb/CV/CV.xsd"/>
+         <produces dir="build/generated/jaxbCache/CV"/>
+      </xjc>
+      <copy todir="${build.generated.sources.dir}/jaxb">
+         <fileset dir="build/generated/jaxbCache/CV"/>
+      </copy>
+      <mkdir dir="build/generated/jaxbCache/Profile"/>
+      <xjc package="jaxbCache.Profile.xml"
+           destdir="build/generated/jaxbCache/Profile"
+           catalog="catalog.xml">
+         <classpath>
+            <pathelement location="${src.dir}"/>
+            <pathelement path="${jaxbwiz.xjcrun.classpath}"/>
+         </classpath>
+         <arg value="-xmlschema"/>
+         <schema file="xml-resources/jaxb/Profile/Profile.xsd"/>
+         <depends file="xml-resources/jaxb/Profile/Profile.xsd"/>
+         <produces dir="build/generated/jaxbCache/Profile"/>
+      </xjc>
+      <copy todir="${build.generated.sources.dir}/jaxb">
+         <fileset dir="build/generated/jaxbCache/Profile"/>
+      </copy>
+   </target>
+</project>

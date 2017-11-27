@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/NewXMLSchema" xmlns:tns="http://www.example.org/NewXMLSchema"
+	elementFormDefault="qualified">
+	<xsd:element name="transcripts">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="transcript" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="name" type="xsd:string" />
+							<xsd:element name="university" type="xsd:string" />
+							<xsd:element name="degree" type="xsd:string" />
+							<xsd:element name="year">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:minInclusive value="1950" />
+										<xsd:maxInclusive value="2017" />
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="courses">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="course" minOccurs="0"
+											maxOccurs="unbounded">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="score" type="xsd:int" />
+													<xsd:element name="value" type="xsd:double" />
+												</xsd:sequence>
+												<xsd:attribute name="CourseName" />
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
+
